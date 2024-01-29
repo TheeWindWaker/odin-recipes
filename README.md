@@ -15,7 +15,6 @@
 	- the solution was to remove the .git folder in the recipes folder using `rm -rf recipes/.git` command and then `git add .` command to make everything on the main branch.
 	- I believe this is something called a `submodule`.
 - `rel="noopener noreferrer"` not required for local links
-- 
 
 
 
