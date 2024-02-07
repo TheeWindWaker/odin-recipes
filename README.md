@@ -1,12 +1,20 @@
 # Odin Project - Foundations Project: Recipe Webpage
 
 [Project: Recipes](https://www.theodinproject.com/lessons/foundations-recipes)
+[Project: Revisiting Recipes (CSS Addition)](https://www.theodinproject.com/lessons/foundations-the-cascade#assignment)
 
 ## Objective:
+
+### Project Recipes
 - Build a basic recipe website using knowledge from previous lessons
 - make use of git, github, terminal commands and HTML
 - Make commits early and often to keep track of large changes
 - use git commit with messages following the "7 rules of a good commit message" from a previous lesson
+
+### Project: Revisiting Recipes (CSS Addition)
+- Add CSS styling to the Recipe Page (color, background, buttons etc.)
+- Make use of specificity and applying styling to multiple pages using the single CSS stylesheet
+
 
 ## Lessons Learned
 -  If you are not sure if you are in the proper git project, navigate to the folder in the terminal, and enter 'git init'. If there is a git project associated with that folder, it will automatically initialize for that project.
