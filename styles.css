@@ -1,0 +1,49 @@
+html{
+    background: rgb(255, 243, 210);
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    text-indent: 2%;
+}
+
+#Header {
+    background: rgb(156,67,34);
+}
+
+.page-title {
+    color: whitesmoke;
+    text-align: left;
+    text-indent: 2%;
+    /* background: rgb(156, 67, 34); */
+    width: fit-window;
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+
+
+#page-description {
+    margin: 0;
+    background: rgb(83, 148, 83);
+    color: white;
+}
+
+body{
+    margin:0
+    
+}
+
+
+
+p {
+    text-align: justify;
+    color: rgb(94, 94, 94);
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    box-shadow: 1px 1px ;
+    background-color: rgb(221, 158, 109);
+    border: 3px outset #e8edb7;
+    block-size:40px;
+}
