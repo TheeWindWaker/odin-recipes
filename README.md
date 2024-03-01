@@ -15,6 +15,9 @@
 - Add CSS styling to the Recipe Page (color, background, buttons etc.)
 - Make use of specificity and applying styling to multiple pages using the single CSS stylesheet
 
+### Project: Block and Inline (CSS Addition)
+- Add further graphic updates to the recipe pages using the box model
+
 
 ## Lessons Learned
 -  If you are not sure if you are in the proper git project, navigate to the folder in the terminal, and enter 'git init'. If there is a git project associated with that folder, it will automatically initialize for that project.
