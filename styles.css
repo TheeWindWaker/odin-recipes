@@ -1,24 +1,36 @@
 html{
     background: rgb(255, 243, 210);
     font-family: "Poppins", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 1em 5em;
+    border: 2px dotted red;
 }
 
+body {
+    background-color: rgb(250,250,240);
+    padding: 3em  .5em;
+    border-radius: 2%;
+    box-shadow: 0em 0em 0 .2em black;
+    margin-top: 0;
+}
 #Header,
 #Footer {
-    background: rgb(255, 179, 125);
+    background: rgb(227, 121, 45);
     color: white;
-    text-indent: 2%;
+    padding: .5em .5em;
+    border-radius: 15px;
 }
 
 
 .page-title {
     color: whitesmoke;
-    text-align: left;
-    /* background: rgb(156, 67, 34); */
+    text-align: center;
     width: fit-window;
     margin-top: 0%;
     margin-bottom: 0;
 }
+
+
 
 img {
     display: block;
@@ -26,45 +38,54 @@ img {
     margin-right: auto;
 }
 
-p,
 h4 {
-    text-align: justify;
-    padding-left: 2%;
-    padding-right: 2%;
+    text-align: center;
+    padding: 0 .5em;
     color: rgb(94, 94, 94);
+}
+
+#all-recipe-list {
+    border: 1px dotted red;
+    padding: 0 1em;
+    background: rgba(150, 86, 29, 0.6);
+    
 }
 
 ol,
 ul {
     padding-left: 15;
-    padding-right: 5%;
+    padding-right: 15%;
 }
+
+
 
 p#page-description {
     margin: 0;
-    text-indent: 0;
     background: rgb(83, 148, 83);
+    border-radius: 1em;
     color: white;
-    padding: 2%;
+    padding: .5em .5em;
+    /* border: 2px dotted red; */
 }
 
-body{
-    margin:0;
-    
-}
-
-h2 {
-    text-indent: 2%;
+h2.title-block {
+    margin: 0 auto;
+    /* margin-top: -1em; */
+    padding: .2em .5em;
+    background: rgb(244, 81, 0);
+     
 }
 
 a {
     text-decoration: none;
 }
+a:visited{
+    color: inherit;
+}
 
 
 #footer-notes {
-    
-    text-indent: 2%;
+    text-align: center;
 }
 
 .recipe-button {
