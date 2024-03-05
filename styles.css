@@ -47,10 +47,9 @@ p {
 .recipe-image  img{
     display: block;
     margin: 0 auto;    
-    /* border: 2px dotted red; */
-    display: flex;
-    min-height: 1em;
-    max-width:50%;   
+    box-sizing: border-box;
+    width: 50%;
+    /* max-width:50%;    */
 }
 
 #cheese {
@@ -88,7 +87,13 @@ h4 {
     border: .2em solid black;
     border-radius: 1.5em;
     border-top: 0;
-    padding: 0px
+}
+
+ul, ol{
+    /* border: 3px dotted red; */
+    margin: 0 3em;
+    padding: .5em 0;
+    line-height: 150%;
 }
 
 
