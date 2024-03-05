@@ -3,7 +3,7 @@ html{
     font-family: "Poppins", Helvetica, Arial, sans-serif;
     box-sizing: border-box;
     margin: 1rem 1rem;
-    border: 2px dotted red;
+    /* border: 2px dotted red; */
 }
 
 body {
@@ -47,7 +47,7 @@ p {
 .recipe-image  img{
     display: block;
     margin: 0 auto;    
-    border: 2px dotted red;
+    /* border: 2px dotted red; */
     display: flex;
     min-height: 1em;
     max-width:50%;   
