@@ -2,23 +2,37 @@ html{
     background: rgb(255, 243, 210);
     font-family: "Poppins", Helvetica, Arial, sans-serif;
     box-sizing: border-box;
-    margin: 1em 5em;
+    margin: 1rem 1rem;
     border: 2px dotted red;
 }
 
 body {
     background-color: rgb(250,250,240);
-    padding: 3em  .5em;
+    padding: 3rem  .5rem;
     border-radius: 2%;
     box-shadow: 0em 0em 0 .2em black;
     margin-top: 0;
 }
+
+p {
+    padding: 0 1em;
+}
+
+#top-bun {
+    block-size: 3rem;
+    border-top: .1rem dotted black;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    background: rgb(227, 121, 45);
+}
+
 #Header,
 #Footer {
     background: rgb(227, 121, 45);
     color: white;
     padding: .5em .5em;
     border-radius: 15px;
+    border-top-left-radius: 0px ;border-top-right-radius: 0px;
 }
 
 
@@ -30,13 +44,37 @@ body {
     margin-bottom: 0;
 }
 
-
-
-img {
+.recipe-image  img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;    
+    border: 2px dotted red;
+    display: flex;
+    min-height: 1em;
+    max-width:50%;   
 }
+
+#cheese {
+    block-size: 5px;
+    background-color: rgb(255, 200, 0);
+    margin: 0 -.4em;
+}
+
+h2.title-block {
+    margin: 0 auto;
+    /* margin-top: -1em; */
+    padding: .2em .5em;
+    background: rgb(244, 81, 0);
+    border-radius: 3px;
+     
+}
+
+#all-recipe-list {
+    padding: 0 1em;
+    background: rgba(150, 86, 29, 0.6);
+    border: .3em dashed rgba(63, 36, 12, 0.6);
+    border-radius: 1em;
+}
+
 
 h4 {
     text-align: center;
@@ -44,22 +82,18 @@ h4 {
     color: rgb(94, 94, 94);
 }
 
-#all-recipe-list {
-    border: 1px dotted red;
-    padding: 0 1em;
-    background: rgba(150, 86, 29, 0.6);
-    
-}
-
-ol,
-ul {
-    padding-left: 15;
-    padding-right: 15%;
+.ingredients-list,
+.steps-list {
+    color: seagreen;
+    border: .2em solid black;
+    border-radius: 1.5em;
+    border-top: 0;
+    padding: 0px
 }
 
 
-
-p#page-description {
+p#page-description,
+h4 {
     margin: 0;
     background: rgb(83, 148, 83);
     border-radius: 1em;
@@ -68,42 +102,26 @@ p#page-description {
     /* border: 2px dotted red; */
 }
 
-h2.title-block {
-    margin: 0 auto;
-    /* margin-top: -1em; */
-    padding: .2em .5em;
-    background: rgb(244, 81, 0);
-     
-}
+
 
 a {
     text-decoration: none;
+    display: block;
+    margin: -.5em -1em;
+    padding: 0 1em;
+    background-color: rgba(63, 36, 12, 0.1);
+    border-radius: .5em;
 }
 a:visited{
     color: inherit;
 }
+a:hover {
+    background-color: rgba(63, 36, 12, .2);
+    border-radius: .5em;
+}
+
 
 
 #footer-notes {
     text-align: center;
-}
-
-.recipe-button {
-    color: aliceblue;
-    font-weight: bolder;
-    font-size: large;
-    /* box-shadow: 1px 1px ; */
-    /* border: 3px outset #e8edb7; */
-    block-size: 90px;
-    
-}
-.recipe-button#roasted-veggies {
-    background: url(./images/roasted_veggies.jpg) ;
-    background-size: cover;
-
-}
-.recipe-button#patata-bravas
- {
-    background: url(./images/patatas_bravas.jpg);
-    background-size: cover;
 }
